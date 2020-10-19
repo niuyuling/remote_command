@@ -11,8 +11,6 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <arpa/inet.h>
-#include <openssl/ssl.h>
-#include <openssl/err.h>
 #include <fcntl.h>
 #include <sys/epoll.h>
 #include <sys/time.h>

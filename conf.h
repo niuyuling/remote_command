@@ -11,7 +11,9 @@ typedef struct CONF {
     char *COMMAND_OUT_FILE;
     int IP_RESTRICTION;
     char *IP_SEGMENT;
-    int IP_len, whitelist_ip_len, PID_FILE_len, COMMAND_OUT_FILE_len, IP_SEGMENT_LEN;
+    int COMMAND_RESTRICTION;
+    char *DISABLE_COMMAND;
+    int IP_len, whitelist_ip_len, PID_FILE_len, COMMAND_OUT_FILE_len, IP_SEGMENT_LEN, DISABLE_COMMAND_LEN;
 } conf;
 
 void read_conf_file(char *file, conf * p);
